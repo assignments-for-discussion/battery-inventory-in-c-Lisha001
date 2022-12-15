@@ -15,7 +15,7 @@ struct CountsByUsage countBatteriesByUsage(const int* cycles, int nBatteries) {
     {
     l=l++;
     }
-    else if(chargeCycleCounts[i]>=310 && chargerCycleCounts[i]<=929)
+    else if(chargeCycleCounts[i]>=310)
       med=med++;
     else{
     high=high++;}
